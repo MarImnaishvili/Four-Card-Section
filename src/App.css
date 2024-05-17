@@ -26,13 +26,12 @@ h1 {
   gap: 20px;
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 1440px) {
   .sections {
     flex-direction: column;
     /* width: 375px; */
   }
   .secDiv {
     width: 311px;
-    height: 222px;
   }
 }

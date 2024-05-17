@@ -1,6 +1,6 @@
 .secDiv {
   width: 350px;
-  height: 250px;
+  /* height: 250px; */
   border-radius: 5px;
   border-top: 4px solid;
   box-shadow: 10px 10px 10px 10px hwb(207 64% 32% / 0.382);
@@ -18,4 +18,5 @@ h2 {
 
 P {
   color: hsl(229, 6%, 66%);
+  padding-bottom: 150px;
 }
