@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  margin: 80px auto 65px;
+  width: 540px;
+  padding: 0 20px;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+}
+.firstH1 {
+  font-weight: lighter;
+}
+
+.sections {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  max-width: 100%;
+}
+.sectionMidle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 775px) {
+  .sections {
+    flex-direction: column;
+    /* width: 375px; */
+  }
+  .secDiv {
+    width: 311px;
+    height: 222px;
+  }
+}
