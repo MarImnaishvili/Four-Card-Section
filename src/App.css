@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  margin: 80px auto 65px;
-  width: 540px;
-  padding: 0 20px;
+  margin: 8rem auto 6.5rem;
+  width: 54rem;
+  padding: 0 2rem;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 
 .sections {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -23,15 +23,14 @@ h1 {
 .sectionMidle {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2rem;
 }
 
 @media only screen and (max-width: 1440px) {
   .sections {
     flex-direction: column;
-    /* width: 375px; */
   }
   .secDiv {
-    width: 311px;
+    width: 31rem;
   }
 }
